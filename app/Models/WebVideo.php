@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class WebVideo extends Model
 {
-    use HasFactory;
+    protected $table = 'web_video';
 }
